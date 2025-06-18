@@ -1,0 +1,121 @@
+@import "../../app.scss";
+
+.parallax {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  p {
+    font-size: 30px;
+    position: relative;
+    z-index: 4;
+    max-width: 1000px;
+    color: gold;
+    margin-top: -80px;
+
+    @include mobile {
+      font-size: 25px;
+      text-align: center;
+      margin-top: 24px;
+    }
+  }
+
+  .mountains {
+    background-image: url("/mountains.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+
+    @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  .planets {
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  .stars {
+    background-image: url("/stars.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .skills-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+    position: relative;
+  }
+
+  .skills-title {
+    font-size: 70px;
+    color: gold;
+    text-align: center;
+    margin: 0 0 32px 0;
+    position: relative;
+    z-index: 4;
+    max-width: 1000px;
+
+    @include mobile {
+      font-size: 25px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    z-index: 4;
+    position: relative;
+    max-width: 900px; // Add this line to limit row width
+    row-gap: 32px;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0 0 8px #000;
+    gap: 8px;
+  }
+
+  .glow {
+    width: 48px;
+    height: 48px;
+    filter: drop-shadow(0 0 12px #fff) drop-shadow(0 0 24px #fff);
+    transition: filter 0.3s;
+  }
+
+  .skill:hover .glow {
+    filter: drop-shadow(0 0 24px #ffd700) drop-shadow(0 0 48px #ffd700);
+  }
+}
