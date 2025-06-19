@@ -5,6 +5,7 @@ import { Icon } from "@iconify/react";
 import sun from "../../assets/sun.png";
 import stars from "../../assets/stars.png";
 import planets from "../../assets/planets.png";
+import mountains from "../../assets/mountains.png";
 
 const Parallax = ({ type }) => {
   const ref = useRef();
