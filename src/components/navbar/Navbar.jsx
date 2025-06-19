@@ -2,6 +2,9 @@ import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
 import githubIcon from "../../assets/github.png";
+import linkedinIcon from "../../assets/linkedin.png";
+import instaIcon from "../../assets/instagram.png";
+import twitterIcon from "../../assets/twitter.png";
 
 const Navbar = () => {
   return (
@@ -24,13 +27,13 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/beriel-abellana-59b44416b/"
             target="_blank"
           >
-            <img src="/linkedin.png" alt="" />
+            <img src={linkedinIcon} alt="LinkedIn" />
           </a>
           <a href="https://www.instagram.com/berlizzen/" target="_blank">
-            <img src="/instagram.png" alt="" />
+            <img src={instaIcon} alt="Instagram" />
           </a>
           <a href="https://x.com/berlirowdy" target="_blank">
-            <img src="/twitter.png" alt="" />
+            <img src={twitterIcon} alt="Twitter" />
           </a>
         </div>
       </div>

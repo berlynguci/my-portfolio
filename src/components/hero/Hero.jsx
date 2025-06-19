@@ -1,6 +1,8 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 import Typewriter from "./Typewriter";
+import profile from "../../assets/Profile_Pic2.png";
+import scroll from "../../assets/scroll.png";
 
 const textVariants = {
   initial: {
@@ -58,7 +60,7 @@ const Hero = () => {
           <motion.img
             variants={textVariants}
             animate="scrollButton"
-            src="/scroll.png"
+            src={scroll}
             alt=""
           />
         </motion.div>
@@ -72,7 +74,7 @@ const Hero = () => {
         010101010101010101010101010101010101010101010101010101010101010101010101010
       </motion.div>
       <div className="imageContainer">
-        <img src="/Profile_Pic2.png" alt="" />
+        <img src={profile} alt="Profile" />
       </div>
     </div>
   );

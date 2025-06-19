@@ -1,6 +1,10 @@
 import { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
+import random from "../../assets/random_pic.png";
+import networking from "../../assets/Networking.png";
+import network from "../../assets/Network.png";
+import databases from "../../assets/Databases.png";
 
 const variants = {
   initial: {
@@ -43,7 +47,7 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/random_pic.png" alt="" />
+          <img src={random} alt="Random" />
           <h1>
             <motion.b whileHover={{ color: "orange" }}>Certification</motion.b>{" "}
           </h1>
@@ -70,7 +74,7 @@ const Services = () => {
           <h2>Networking</h2>
           <p>
             <img
-              src="/Networking.png"
+              src={networking}
               alt="Networking"
               style={{ width: "350px", verticalAlign: "middle" }}
             />
@@ -83,7 +87,7 @@ const Services = () => {
           <h2>Databases</h2>
           <p>
             <img
-              src="/Databases.png"
+              src={databases}
               alt="Databases"
               style={{ width: "350px", verticalAlign: "middle" }}
             />
@@ -97,7 +101,7 @@ const Services = () => {
           <p>
             {" "}
             <img
-              src="/Network.png"
+              src={network}
               alt="Network"
               style={{ width: "350px", verticalAlign: "middle" }}
             />
