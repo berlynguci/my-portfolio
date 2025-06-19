@@ -1,6 +1,7 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import githubIcon from "../../assets/github.png";
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="https://github.com/berlynguci" target="_blank">
-            <img src="/github.png" alt="" />
+            <img src={githubIcon} alt="GitHub" />
           </a>
           <a
             href="https://www.linkedin.com/in/beriel-abellana-59b44416b/"
