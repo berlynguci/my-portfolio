@@ -5,7 +5,6 @@ import githubIcon from "../../assets/github.png";
 import linkedinIcon from "../../assets/linkedin.png";
 import instaIcon from "../../assets/instagram.png";
 import twitterIcon from "../../assets/twitter.png";
-import mountain from "../../assets/mountains.png";
 
 const Navbar = () => {
   return (

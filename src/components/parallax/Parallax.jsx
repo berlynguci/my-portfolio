@@ -103,13 +103,13 @@ const Parallax = ({ type }) => {
         </div>
       ) : (
         <motion.p style={{ y: yText }}>
-          I started programming in my freshmen years in mid-2019, so I’ve been
-          programming for almost seven years now. Building projects taught me a
-          lot about problem-solving, persistence, and thinking creatively. These
-          experiences helped me become a much more confident programmer. I have
-          3 years of experience in frontend development. On the web, I started
-          with HTML, CSS, and JavaScript, gradually learning frameworks like
-          React and Next.js. I mostly design my own UIs, but I’ve recently
+          I started programming during my freshmen year in mid-2019, so I’ve
+          been programming for almost seven years now. Building projects taught
+          me a lot about problem-solving, persistence, and thinking creatively.
+          These experiences helped me become a much more confident programmer. I
+          have 3 years of experience in frontend development. On the web, I
+          started with HTML, CSS, and JavaScript, gradually learning frameworks
+          like React and Next.js. I mostly design my own UIs, but I’ve recently
           adopted third-party libraries for components like logos, which has
           helped me streamline my workflow and focus on delivering efficient,
           high-quality designs.

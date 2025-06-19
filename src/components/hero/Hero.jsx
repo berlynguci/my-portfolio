@@ -1,7 +1,7 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 import Typewriter from "./Typewriter";
-import profile from "../../assets/Profile_Pic2.png";
+import profile from "../../assets/berl4.png";
 import scroll from "../../assets/scroll.png";
 
 const textVariants = {

@@ -63,7 +63,7 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Nidea Street Obrero, Davao City</span>
+          <span>Davao City, Davao del Sur</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
