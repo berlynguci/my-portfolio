@@ -58,7 +58,7 @@ const Services = () => {
             Certificates
           </h1>
           <a
-            href="/Resume_Abellana.pdf"
+            href={`${process.env.PUBLIC_URL}/Resume_Abellana.pdf`}
             target="_blank"
             rel="noopener noreferrer"
           >
