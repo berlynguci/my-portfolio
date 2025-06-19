@@ -115,7 +115,18 @@ const Parallax = ({ type }) => {
         </motion.p>
       )}
 
-      <motion.div className="mountains"></motion.div>
+      <motion.div
+        className="mountains"
+        style={{
+          backgroundImage: `url(${mountains})`,
+          backgroundSize: "cover",
+          backgroundPosition: "bottom",
+          width: "100%",
+          height: "100%",
+          position: "absolute",
+          zIndex: 3,
+        }}
+      ></motion.div>
       <motion.div
         className="planets"
         style={{
@@ -123,7 +134,19 @@ const Parallax = ({ type }) => {
           backgroundImage: `url(${type === "services" ? planets : sun})`,
         }}
       ></motion.div>
-      <motion.div style={{ x: yBg }} className="stars"></motion.div>
+      <motion.div
+        className="stars"
+        style={{
+          x: yBg,
+          backgroundImage: `url(${stars})`,
+          backgroundSize: "cover",
+          backgroundPosition: "bottom",
+          width: "100%",
+          height: "100%",
+          position: "absolute",
+          zIndex: 1,
+        }}
+      ></motion.div>
     </div>
   );
 };
