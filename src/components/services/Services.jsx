@@ -76,7 +76,7 @@ const Services = () => {
             <img
               src={networking}
               alt="Networking"
-              style={{ width: "350px", verticalAlign: "middle" }}
+              style={{ verticalAlign: "middle" }}
             />
           </p>
         </motion.div>
@@ -89,7 +89,7 @@ const Services = () => {
             <img
               src={databases}
               alt="Databases"
-              style={{ width: "350px", verticalAlign: "middle" }}
+              style={{ verticalAlign: "middle" }}
             />
           </p>
         </motion.div>
@@ -103,7 +103,7 @@ const Services = () => {
             <img
               src={network}
               alt="Network"
-              style={{ width: "350px", verticalAlign: "middle" }}
+              style={{ verticalAlign: "middle" }}
             />
           </p>
         </motion.div>

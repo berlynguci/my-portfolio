@@ -104,6 +104,7 @@
     @include mobile {
       flex-direction: column;
       width: 100%;
+      align-items: center;
     }
 
     .box {
@@ -112,17 +113,30 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      width: 100%;
 
       @include mobile {
-        border: none;
-        align-items: center;
-        gap: 20px;
         padding: 10px;
+        width: 60%;
+        align-items: center;
       }
 
       p {
         @include mobile {
-          display: none;
+        }
+      }
+
+      img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+
+        @include mobile {
+          max-width: 47vw;
+          width: 100%;
+          height: auto;
         }
       }
 
